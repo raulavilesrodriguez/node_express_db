@@ -18,6 +18,7 @@ exports.up = function(knex) {
      //Foreing key info a la tabla lessons
      tbl.integer('lesson_id')
         .unsigned()
+        .notNullable()
         .references('id')
         .inTable('lessons')
         .onDelete('CASCADE')
