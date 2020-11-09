@@ -1,0 +1,29 @@
+{
+  "name": "node_express_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulavilesrodriguez/node_express_db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulavilesrodriguez/node_express_db/issues"
+  },
+  "homepage": "https://github.com/raulavilesrodriguez/node_express_db#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.12",
+    "sqlite3": "^5.0.0",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
