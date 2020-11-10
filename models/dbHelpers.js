@@ -1,7 +1,9 @@
 //aquí creamos los queries. Las consultas a la base de datos
-const knex = require('knex')
-const config = require('../knexfile')
-const db = knex(config.development)
+//const knex = require('knex')
+//const config = require('../knexfile')
+//const db = knex(config.development)
+
+const db = require('../dbConfig');
 
 module.exports ={
     add,
