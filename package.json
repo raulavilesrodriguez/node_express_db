@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/raulavilesrodriguez/node_express_db#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "knex": "^0.21.12",
     "sqlite3": "^5.0.0",
